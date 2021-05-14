@@ -45,7 +45,7 @@ router.post('/insert_checklist',(req,res)=>{
     console.log(err);  
      res.send({ status: 0, msg: 'Failed', data: err }); 
     }else{   
-  
+  // console.log("respone",response[2]); s
      res.send({ status: 1, msg: 'Success', data: response[2] }); 
      }  
      });  
