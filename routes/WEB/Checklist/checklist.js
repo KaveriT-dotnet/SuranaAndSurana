@@ -49,8 +49,11 @@ router.post('/insert_checklist',(req,res)=>{
      res.send({ status: 1, msg: 'Success', data: response[2] }); 
      }  
      });  
+
+
+     
    
-}
+}   
    
     catch(ex)
     {
